@@ -17,8 +17,8 @@ This repository contains configuration files and instructions for setting up NGI
 
 Before you begin, ensure you have the following installed:
 
-- Docker
-- Docker Compose
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Getting Started
 
