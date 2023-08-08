@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 2. Edit `conf.d/app.conf`:
 
    Replace `<domain>` with actual domain and `<container_name>:<container_port>` with container information.
-   **DO NOT UNCOMMENT THE HTTPS SERVER BLOCKS AND UPSTREAM SECTIONS.**
+   **DO NOT UNCOMMENT THE HTTPS SERVER BLOCKS AND UPSTREAM SECTIONS AT THIS STEP.**
 
 3. Edit the `init-letencrypt.sh` script:
 
