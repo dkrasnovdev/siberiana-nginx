@@ -70,3 +70,9 @@ You can customize the NGINX configuration in `conf.d/app.conf` to suit project's
 ## Troubleshooting
 
 If you encounter any issues or have questions, please feel free to create an issue on this repository.
+
+## Related Repositories
+
+- [Siberiana Public Assets](https://github.com/dkrasnovdev/siberiana-public-assets)
+- [Siberiana MinIO](https://github.com/dkrasnovdev/siberiana-minio)
+- [Siberiana Keycloak Setup](https://github.com/dkrasnovdev/siberiana-keycloak)
