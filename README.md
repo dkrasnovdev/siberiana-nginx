@@ -73,7 +73,7 @@ If you encounter any issues or have questions, please feel free to create an iss
 
 ## Related Repositories
 
-- [Siberiana API](https://github.com/dkrasnovdev/siberiana-api)
+- [Siberiana GraphQL API](https://github.com/dkrasnovdev/siberiana-api)
 - [Siberiana Nginx Setup](https://github.com/dkrasnovdev/siberiana-nginx)
 - [Siberiana Keycloak Setup](https://github.com/dkrasnovdev/siberiana-keycloak)
 - [Siberiana MinIO Setup](https://github.com/dkrasnovdev/siberiana-minio)
