@@ -11,7 +11,7 @@ Siberiana | Aggregator of the Historical and Cultural Heritage of the Yenisei Si
 
 # Siberiana NGINX Setup
 
-This repository contains configuration files and instructions for setting up NGINX with Let's Encrypt SSL certificates for your Siberiana project.
+This repository contains configuration files and instructions for setting up NGINX with Let's Encrypt SSL certificates for Siberiana project.
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 
    Open the `init-letencrypt.sh` script and set the following values:
 
-   - `domains`: Add your main domain and subdomains (api.<domain>, oauth.<domain>, s3.<domain>, console.<domain>).
+   - `domains`: Add main domain and subdomains (api.<domain>, oauth.<domain>, s3.<domain>, console.<domain>).
    - `staging`: Set to `1` for initial testing and certificate generation, then change to `0` for actual certificates.
 
    Run the following commands to make the script executable and then execute it:
@@ -45,7 +45,7 @@ Before you begin, ensure you have the following installed:
 
 3. Edit `conf.d/app.conf`:
 
-   Uncomment the HTTPS server blocks and upstream sections. Replace `<domain>` with your actual domain and `<container_name>:<container_port>` with your container information.
+   Uncomment the HTTPS server blocks and upstream sections. Replace `<domain>` with actual domain and `<container_name>:<container_port>` with container information.
 
 4. Restart NGINX:
 
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
 
 5. Access Your Project:
 
-   Your project should now be accessible at your domain and subdomains with HTTPS.
+   Your project should now be accessible at domain and subdomains with HTTPS.
 
 ## Files
 
@@ -65,7 +65,7 @@ Before you begin, ensure you have the following installed:
 
 ## Customization
 
-You can customize the NGINX configuration in `conf.d/app.conf` to suit your project's specific requirements.
+You can customize the NGINX configuration in `conf.d/app.conf` to suit project's specific requirements.
 
 ## Troubleshooting
 
