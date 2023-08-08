@@ -29,7 +29,11 @@ Before you begin, ensure you have the following installed:
    cd siberiana-nginx
    ```
 
-2. Edit the `init-letencrypt.sh` script:
+2. Edit `conf.d/app.conf`:
+
+   Replace `<domain>` with actual domain and `<container_name>:<container_port>` with container information. **DO NOT UNCOMMENT THE HTTPS SERVER BLOCKS AND UPSTREAM SECTIONS YET**
+
+3. Edit the `init-letencrypt.sh` script:
 
    Open the `init-letencrypt.sh` script and set the following values:
 
@@ -43,17 +47,17 @@ Before you begin, ensure you have the following installed:
    ./init-letencrypt.sh
    ```
 
-3. Edit `conf.d/app.conf`:
+4. Edit `conf.d/app.conf`:
 
-   Uncomment the HTTPS server blocks and upstream sections. Replace `<domain>` with actual domain and `<container_name>:<container_port>` with container information.
+   Uncomment the HTTPS server blocks and upstream sections.
 
-4. Restart NGINX:
+5. Restart NGINX:
 
    ```bash
    docker-compose restart nginx
    ```
 
-5. Access Your Project:
+6. Access Your Project:
 
    Your project should now be accessible at domain and subdomains with HTTPS.
 
