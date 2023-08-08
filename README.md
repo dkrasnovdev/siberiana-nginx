@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 
    Replace `<domain>` with actual domain and `<container_name>:<container_port>` with container information.
 
-   **IMPORTANT: DO NOT UNCOMMENT THE HTTPS SERVER BLOCKS AND UPSTREAM SECTIONS AT THIS STEP❗️**
+   **IMPORTANT: DO NOT UNCOMMENT THE HTTPS SERVER BLOCKS AND UPSTREAM SECTIONS AT THIS STEP.**
 
 3. Edit the `init-letencrypt.sh` script:
 
